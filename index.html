@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Bootstrap cheat sheet</title>
+  </head>
+  <body>
+      <!--TYPOGRAPHY-->
+      <div class="container">
+    <h1 class="page-header">Hi Stefan , how are you?<small>Secondary Text</small></h1>
+    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio voluptatibus sit ullam alias culpa vitae hic sequi a aperiam corrupti earum, placeat totam neque ab! Nemo suscipit sit magnam provident!</p>
+    <p><mark>Lorem ipsum dolor sit amet consectetur,</mark> adipisicing elit.<del> Officiis, dolor modi,</del>Officiis itaque iusto perferendis sed quae non repudiandae quibusdam magnam aut adipisci minus rem. Iusto fuga voluptate eum consequuntur aliquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <u>Numquam soluta</u> corrupti quam magni ipsa, sint labore, fugiat unde quisquam dolorum repellendus! Commodi quisquam beatae praesentium neque sed consectetur amet corporis.
+    </p>
+<hr>
+
+<!--ALIGNMENT , Tranformation-->
+<p class="text-left text-lowercase">Left aligned text.</p>
+<p class="text-center text-uppercase">Center aligned text.</p>
+<p class="text-right text-capitalize">Right aligned text.</p>
+<p class="text-justify">Justified aligned text.</p>
+<p class="text-nowrap">No Wrap text.</p>
+
+
+<!--Quick Floaats-->
+<div class="float-right">Div floated to right</div>
+<div class="float-left">Div floated to left</div>
+<!--Clear float-->
+<div class="clearfix"></div>
+<hr>
+<!--Blockquote-->
+<blockquote class="blockquote">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus consequuntur voluptas odit commodi ipsa! Cumque, nam. Accusamus rem iusto, consequuntur alias laudantium beatae velit! Nihil facere repellendus sit porro quae?</p>
+    <footer class="blockquote-footer">Quote by <cite title="Stefan Hancar">Stefan Hancar</cite></footer>
+</blockquote>
+<hr>
+<!--List-->
+<ul class="list-unstyled">
+    <li>Item one</li>
+    <li>Item Two</li>
+    <li>Item Three</li>
+    <li>Item Four</li>
+</ul>
+<ul class="list-inline">
+    <li class="list-inline-item">Item one</li>
+    <li class="list-inline-item">Item Two</li>
+    <li class="list-inline-item">Item Three</li>
+    <li class="list-inline-item" >Item Four</li>
+</ul>
+<!--Code-->
+<code>&lt;h1&gt;Heading Text&lt;/h1&gt;</code>
+<br>
+Change Directory with <kbd>cd</kbd>
+<br>
+To edit settings, press <kbd><kbd>ctrl</kbd>+<kbd>,</kbd></kbd>
+<hr>
+
+<!--Contextual colors-->
+<p class="text-primary">Hello Steve</p>
+<p class="text-success">Hello Steve</p>
+<p class="text-info">Hello Steve</p>
+<p class="text-warning">Hello Steve</p>
+<p class="text-danger">Hello Steve</p>
+<p class="text-muted">Hello Steve</p>
+
+<!--Contextual background colors-->
+<p class="bg-success">Hello Steve</p>
+<p class="bg-primary">Hello Steve</p>
+<p class="bg-info">Hello Steve</p>
+<p class="bg-warning">Hello Steve</p>
+<p class="bg-danger">Hello Steve</p>
+<p class="bg-muted">Hello Steve</p>
+<hr>
+ <!--Buttons-->
+<divc class="container">
+   
+    <button class="btn btn-primary">Button</button>
+    <a href="#" class="btn btn-primary" role="button">Link</a>
+    <input type="submit" class="btn btn-primary" value="Submit">
+    <!--Conceptual Buttons-->
+    <button class="btn btn-success">Success</button>
+    <button class="btn btn-primary">Button</button>
+    <button class="btn btn-info">Info</button>
+    <button class="btn btn-warning">Warning</button>
+    <button class="btn btn-danger">Delete</button>
+ <!--Sizes Buttons-->
+ <button class="btn btn-primary btn-lg">Default</button>
+ <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+ <button type="button" class="btn btn-primary btn-sm">Small button</button>
+<button type="button" class="btn btn-secondary btn-sm">Small button</button>
+
+</div>
+<hr>
+ <!--Forms-->
+ <div class="container">
+ <form>
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" placeholder="Add Name">
+        <div class="form-group">
+        <label>Email</label>
+        <input type="email" class="form-control" placeholder="Add Email">
+    </div>
+    <div class="form-group">
+        <label>Message</label>
+        <textarea class="form-control" placeholder="Add Message"></textarea>
+    </div>
+    <div class="form-group">
+        <label>Gender</label>
+        <select class="form-control">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Upload File</label>
+        <input type="file">
+        <p class="help-block">Only png and jpg allowed</p>
+    </div>
+    <div class="form-group">
+        <label>Check me out
+        <input type="checkbox">
+        </label>
+        
+    </div>
+
+
+ </form>
+</div>
+<hr>
+<!--Table-->
+<div class="container">
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr class="danger"> 
+            <td>Stefan</td>
+            <td>Hancar</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>Stefan</td>
+            <td>Hancar</td>
+            <td>34</td>
+        </tr>
+    </table>
+</div>
+<hr>
+<div class="container">
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action active"">Item One</a>
+        <a href="#" class="list-group-item list-group-item-action">Item Two</a>
+        <a href="#" class="list-group-item list-group-item-action">Item Three</a>
+        <a href="#" class="list-group-item list-group-item-action">Item Four</a>
+    </div>
+
+</div>
+<div class="container">
+<div class="progress">
+    <div class="progress-bar progress-bar-striped  active" style="width: 50%;">50%
+
+    </div>
+
+</div>
+</div>
+<hr>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus distinctio sit sunt architecto? Deserunt, dolore repudiandae eveniet, illum facere atque provident accusamus fugit, esse nobis assumenda veritatis commodi ducimus quas!</p>
+        </div>
+        <div class="col-md-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus distinctio sit sunt architecto? Deserunt, dolore repudiandae eveniet, illum facere atque provident accusamus fugit, esse nobis assumenda veritatis commodi ducimus quas!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus distinctio sit sunt architecto? Deserunt, dolore repudiandae eveniet, illum facere atque provident accusamus fugit, esse nobis assumenda veritatis commodi ducimus quas!</p>
+        </div>
+        <div class="col-md-3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus distinctio sit sunt architecto? Deserunt, dolore repudiandae eveniet, illum facere atque provident accusamus fugit, esse nobis assumenda veritatis commodi ducimus quas!</p>
+        </div>
+        <div class="col-md-3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus distinctio sit sunt architecto? Deserunt, dolore repudiandae eveniet, illum facere atque provident accusamus fugit, esse nobis assumenda veritatis commodi ducimus quas!</p>
+        </div>
+        <div class="col-md-3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus distinctio sit sunt architecto? Deserunt, dolore repudiandae eveniet, illum facere atque provident accusamus fugit, esse nobis assumenda veritatis commodi ducimus quas!</p>
+        </div>
+    </div>
+     
+</div>
+
+<div style="height:400px"></div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
